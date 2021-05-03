@@ -1,0 +1,21 @@
+.projectsPage__left h1 {
+    color: white;
+}
+
+/* projectsPage container */
+#projectsPage {
+    background: #0f1014;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.profjectsPage__buttons > button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #3d4145;
+  color: white;
+  margin-right: 20px;
+  border: white 1px solid;
+}
