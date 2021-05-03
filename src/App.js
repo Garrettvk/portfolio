@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import Header from "./Components/Header";
-import About from "./Components/About";
+import ProjectsPage from "./Components/ProjectsPage";
 
 import "./App.css";
 
@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="App">
       <Header data={resumeData.main} />
-      <About data={resumeData.main} />
+      <ProjectsPage data={resumeData.main} />
     </div>
   );
 };
