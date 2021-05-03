@@ -3,7 +3,7 @@ import React from "react";
 const ProjectsPage = () => {
 
   return (
-    <div id="about">
+    <div id="projectsPage">
       <div className="projectsPage__left">
         <h1>Netflix Clone</h1>
         <p>Made with react for the UI, firebase for authentication and database. Stripe for payment processing</p>

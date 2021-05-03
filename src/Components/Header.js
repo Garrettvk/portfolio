@@ -33,7 +33,7 @@ const Header = ({ data }) => {
       </div>
 
       <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
+        <a className="smoothscroll" href="#projectsPage">
           <i className="icon-down-circle"></i>
         </a>
       </p>
