@@ -27,10 +27,8 @@ const Header = ({ data }) => {
             <TypeWriter typing={0.5}>{name ? name : null}</TypeWriter>
           </h1>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            {occupation} Based in {city}.
           </h3>
-          <hr />
-          <ul className="social">{networks}</ul>
         </div>
       </div>
 
