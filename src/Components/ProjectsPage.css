@@ -11,7 +11,7 @@
     padding: 100px;
 }
 
-.profjectsPage__buttons > button {
+.profjectsPage__buttons > a {
     padding: 10px;
     border-radius: 20px;
     background-color: #3d4145;
@@ -23,6 +23,6 @@
     cursor: pointer;
 }
 
-.profjectsPage__buttons > button:hover {
+.profjectsPage__buttons > a:hover {
     background-color: #3d414564;
 }
