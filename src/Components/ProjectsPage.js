@@ -1,24 +1,32 @@
 import React from "react";
-import './ProjectsPage.css'
+import Project from "./Project";
 
-// project photo
+// project photos
 import netflixPic from './../images/netflixPic.png'
+import amazon from './../images/amazon.png'
 
 const ProjectsPage = () => {
 
   return (
-    <div id="projectsPage">
-      <div className="projectsPage__left">
-        <h1>Netflix Clone</h1>
-        <p>Made with react for the UI, firebase for authentication and database. Stripe for payment processing</p>
-        <div className="profjectsPage__buttons">
-          <a href="https://netflix-build-76aae.web.app/" target="_blank" rel="noreferrer">Live Demo</a>
-          <a href="https://github.com/Garrettvk/netflix-build" target="_blank" rel="noreferrer">Code On Github</a>
-        </div>
-      </div>
-      <div className="projectsPage__right">
-        <img src={netflixPic} alt="" />
-      </div>
+    <div className='projectsPage'>
+
+      {/* Netflix */}
+      <Project
+        title='Netflix Clone'
+        image={netflixPic}
+        description='Made with react for the UI, firebase for authentication and database. Stripe for payment processing.'
+        projectUrl='https://netflix-build-76aae.web.app/'
+        githubUrl='https://github.com/Garrettvk/netflix-build'
+      />
+
+      {/* Amazon */}
+      <Project
+        title='Amazon Clone'
+        image={amazon}
+        description='Made with react for the UI, firebase for authentication and database. Stripe for payment processing.'
+        projectUrl='https://clone-9e900.web.app/'
+        githubUrl='https://github.com/Garrettvk/amazon-clone'
+      />
     </div>
   );
 };
