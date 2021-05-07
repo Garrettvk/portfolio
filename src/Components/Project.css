@@ -2,6 +2,11 @@
     color: white;
 }
 
+/* left side of project page */
+.projectsPage__left {
+  width: 800px;
+}
+
 /* projectsPage container */
 #projectsPage {
     background: #0f1014;
@@ -11,7 +16,7 @@
     padding: 100px;
 }
 
-.profjectsPage__buttons > a {
+.projectsPage__buttons > a {
     padding: 10px;
     border-radius: 20px;
     background-color: #3d4145;
@@ -24,7 +29,7 @@
 }
 
 /* make background more transparent on hover */
-.profjectsPage__buttons > a:hover {
+.projectsPage__buttons > a:hover {
     background-color: #3d414564;
 }
 
@@ -43,5 +48,10 @@
   .projectsPage__right > img {
     margin-top: 40px;
     padding: 0;
+  }
+
+  /* left side of project page */
+  .projectsPage__left {
+    width: auto;
   }
 }
