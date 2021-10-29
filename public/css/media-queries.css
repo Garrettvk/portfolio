@@ -17,6 +17,14 @@
       font: 80px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
+      border: 1px solid red;
+   }
+
+   .responsive-headline {
+      font-size: 38px !important; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
    }
 
 }
