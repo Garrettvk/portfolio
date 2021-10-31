@@ -191,6 +191,15 @@
       border: none;
    }  
 
+   /* stack first name and last name on top of each other */
+   .responsive-headline {
+      flex-direction: column;
+   }
+
+   .banner-text {
+      padding-top: 25vh !important;
+   }
+
 
    /* Header Styles
    -------------------------------------------------------------------- */

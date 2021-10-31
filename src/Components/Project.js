@@ -6,7 +6,7 @@ function Project({title, description, projectUrl, githubUrl, image}) {
     <div id="projectsPage">
       <div className="projectsPage__left">
         <h1>{title}</h1>
-        <p>{description}</p>
+        <span>{description}</span>
         <div className="projectsPage__buttons">
           <a href={projectUrl} target="_blank" rel="noreferrer">Live Demo</a>
           <a href={githubUrl} target="_blank" rel="noreferrer">Code On Github</a>

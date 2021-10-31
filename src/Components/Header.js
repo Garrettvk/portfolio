@@ -15,10 +15,11 @@ const Header = ({ data }) => {
             <div className="row banner">
                 <div className="banner-text">
                     <h1 className="responsive-headline">
-                        {name ? name : null}
+                        <span>Garrett</span>
+                        <span style={{"margin-left": "20px"}}>van Kranenburg</span>
                     </h1>
                     <h3>
-                        {occupation} based in {city}, California.
+                        {occupation} based in {city}, CA.
                     </h3>
                 </div>
             </div>
