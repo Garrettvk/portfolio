@@ -733,6 +733,9 @@ properly.
 	text-align: center !important;
 }
 
-
+/* This style property makes it so the snow animation only appears in the header, not the entire page */
+canvas {
+   position: absolute !important;
+}
 
 

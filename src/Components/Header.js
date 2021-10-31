@@ -1,34 +1,35 @@
 import React from "react";
-import TypeWriter from "react-typewriter";
+import particlesConfig from "../config/particle-config";
+import Particles from "react-particles-js";
 
 const Header = ({ data }) => {
-  if (data) {
-    var name = data.name;
-    var occupation = data.occupation;
-    var city = data.address.city;
-  }
+    if (data) {
+        var name = data.name;
+        var occupation = data.occupation;
+        var city = data.address.city;
+    }
 
-  return (
-    <header id="home">
+    return (
+        <header id="home">
+            <Particles params={particlesConfig} />
+            <div className="row banner">
+                <div className="banner-text">
+                    <h1 className="responsive-headline">
+                        {name ? name : null}
+                    </h1>
+                    <h3>
+                        {occupation} based in {city}, California.
+                    </h3>
+                </div>
+            </div>
 
-      <div className="row banner">
-        <div className="banner-text">
-          <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? name : null}</TypeWriter>
-          </h1>
-          <h3>
-            {occupation} based in {city}.
-          </h3>
-        </div>
-      </div>
-
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#projectsPage">
-          <i className="icon-down-circle"></i>
-        </a>
-      </p>
-    </header>
-  );
+            <p className="scrolldown">
+                <a className="smoothscroll" href="#projectsPage">
+                    <i className="icon-down-circle"></i>
+                </a>
+            </p>
+        </header>
+    );
 };
 
 export default Header;
