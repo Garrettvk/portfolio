@@ -10,10 +10,14 @@
 /* projectsPage container */
 #projectsPage {
     background: #0f1014;
-    height: 100vh;
+    height: 615px;
     display: flex;
     flex-direction: row;
     padding: 100px;
+}
+
+.projectsPage__buttons {
+  margin-top: 30px;
 }
 
 .projectsPage__buttons > a {
@@ -42,6 +46,7 @@
   /* put project image below buttons */
   #projectsPage {
     flex-direction: column;
+    height: 70vh;
   }
 
   /* add more space between buttons and picture */
@@ -54,4 +59,12 @@
   .projectsPage__left {
     width: auto;
   }
+}
+
+@media only screen and (min-width: 1400px) {
+    
+    /* put project image below buttons */
+    #projectsPage {
+      height: 915px;
+    }
 }
