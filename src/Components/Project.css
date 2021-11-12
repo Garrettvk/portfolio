@@ -4,7 +4,7 @@
 
 /* left side of project page */
 .projectsPage__left {
-  width: 800px;
+    width: 800px;
 }
 
 /* projectsPage container */
@@ -17,7 +17,7 @@
 }
 
 .projectsPage__buttons {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 .projectsPage__buttons > a {
@@ -38,33 +38,31 @@
 }
 
 .projectsPage__right > img {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 @media only screen and (max-width: 1030px) {
-  
-  /* put project image below buttons */
-  #projectsPage {
-    flex-direction: column;
-    height: 70vh;
-  }
+    /* put project image below buttons */
+    #projectsPage {
+        flex-direction: column;
+        height: 70vh;
+    }
 
-  /* add more space between buttons and picture */
-  .projectsPage__right > img {
-    margin-top: 40px;
-    padding: 0;
-  }
+    /* add more space between buttons and picture */
+    .projectsPage__right > img {
+        margin-top: 40px;
+        padding: 0;
+    }
 
-  /* left side of project page */
-  .projectsPage__left {
-    width: auto;
-  }
+    /* left side of project page */
+    .projectsPage__left {
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
-    
     /* put project image below buttons */
     #projectsPage {
-      height: 915px;
+        height: 915px;
     }
 }
