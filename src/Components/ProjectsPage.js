@@ -2,36 +2,32 @@ import React from "react";
 import Project from "./Project";
 
 // project photos
-import netflixPic from './../images/netflixPic.png'
-import amazon from './../images/amazon.png'
+import fmGallery from './../images/FM-Gallery.png'
+import lcfm from './../images/lcfm.png'
 import greaterWorks from './../images/greaterWorks.png'
+import wolfsToolBox from './../images/wolfs-toolbox.png'
 
 const ProjectsPage = () => {
 
   return (
     <div className='projectsPage'>
 
-      {/* Netflix */}
+      {/* FM Gallery */}
       <Project
-        title='Netflix Clone'
-        image={netflixPic}
+        title='FM Gallery'
+        image={fmGallery}
         description={
           <div>
-            <div>Made with react for the UI, firebase for user authentication and database. Stripe for payment processing.</div>
-            <div>You can login in with:</div>
-            <div>username: admin@gmail.com</div>
-            <div>password: 123456</div>
-            After logging in you can subscribe to a different plan or click the netflix logo to view homepage. When clicking the subscribe button wait a moment for the check out screen to show. Once it loads you can type "42" until the card details are filled out.
+            Landing pages for products created by RCC. These websites were designed by me using HTML and CSS. I created my own graphics with Photoshop, wrote copy for written content, utilized code from the company code base as well wrote code from scratch when needed. These pages are fully responsive and used by RCC to showcase and sell their software.
           </div>
         }
-        projectUrl='https://netflix-build-76aae.web.app/'
-        githubUrl='https://github.com/Garrettvk/netflix-build'
+        projectUrl='https://fmgallery.net/'
       />
 
-      {/* Amazon */}
+      {/* LiveCode for FM */}
       <Project
-        title='Amazon Clone'
-        image={amazon}
+        title='LiveCode for FM'
+        image={lcfm}
         description={
           <div>
             Made with react for the UI, firebase for user authentication and database. Stripe for payment processing. Items can be added and removed from cart and then purchased by typing "42" until the card details are filled in.
@@ -43,6 +39,14 @@ const ProjectsPage = () => {
         }
         projectUrl='https://clone-9e900.web.app/'
         githubUrl='https://github.com/Garrettvk/amazon-clone'
+      />
+
+      {/* Wolf's Toolbox */}
+      <Project
+        title="Wolf's Toolbox"
+        image={wolfsToolBox}
+        description=''
+        projectUrl='https://fmstartingpoint.com/marketplace/wolftoolbox/'
       />
 
       {/* Greater Works */}

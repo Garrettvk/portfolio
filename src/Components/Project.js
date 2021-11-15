@@ -9,7 +9,7 @@ function Project({title, description, projectUrl, githubUrl, image}) {
         <span>{description}</span>
         <div className="projectsPage__buttons">
           <a href={projectUrl} target="_blank" rel="noreferrer">Live Demo</a>
-          <a href={githubUrl} target="_blank" rel="noreferrer">Code On Github</a>
+          {githubUrl && <a href={githubUrl} target="_blank" rel="noreferrer">Code On Github</a>}
         </div>
       </div>
       <div className="projectsPage__right">
