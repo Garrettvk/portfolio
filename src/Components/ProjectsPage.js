@@ -23,7 +23,7 @@ const ProjectsPage = () => {
       <Project
         title='LiveCode for FM'
         image={lcfm}
-        projectUrl='https://clone-9e900.web.app/'
+        projectUrl='https://www.fmstartingpoint.com/marketplace/livecodeforfm/index.html'
       />
 
       {/* Greater Works */}

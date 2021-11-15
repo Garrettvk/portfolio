@@ -1,13 +1,15 @@
-import React from 'react'
-import './Project.css'
+import React from "react";
+import "./Project.css";
 
-function Project({title, projectUrl, image}) {
-  return (
-    <div id="projectsPage">
-        <h1>{title}</h1>
-        <img src={image} alt="" />
-    </div>
-  )
+function Project({ title, projectUrl, image }) {
+    return (
+        <div id="projectsPage">
+            <h1>{title}</h1>
+            <a href={projectUrl}>
+                <img src={image} alt="" />
+            </a>
+        </div>
+    );
 }
 
-export default Project
+export default Project;

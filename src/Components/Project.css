@@ -6,3 +6,7 @@ h1 {
 img {
     width: 100%;
 }
+
+img:hover {
+    filter: brightness(110%);
+}
