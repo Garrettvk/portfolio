@@ -1,68 +1,8 @@
-.projectsPage__left h1 {
+h1 {
     color: white;
+    font-size: 20px;
 }
 
-/* left side of project page */
-.projectsPage__left {
-    width: 800px;
-}
-
-/* projectsPage container */
-#projectsPage {
-    background: #0f1014;
-    height: 615px;
-    display: flex;
-    flex-direction: row;
-    padding: 100px;
-}
-
-.projectsPage__buttons {
-    margin-top: 30px;
-}
-
-.projectsPage__buttons > a {
-    padding: 10px;
-    border-radius: 20px;
-    background-color: #3d4145;
-    color: white;
-    margin-right: 20px;
-    border: white 1px solid;
-    transition: 0.3s;
-    font-family: "Inter", sans-serif;
-    cursor: pointer;
-}
-
-/* make background more transparent on hover */
-.projectsPage__buttons > a:hover {
-    background-color: #3d414564;
-}
-
-.projectsPage__right > img {
-    padding-left: 20px;
-}
-
-@media only screen and (max-width: 1030px) {
-    /* put project image below buttons */
-    #projectsPage {
-        flex-direction: column;
-        height: 70vh;
-    }
-
-    /* add more space between buttons and picture */
-    .projectsPage__right > img {
-        margin-top: 40px;
-        padding: 0;
-    }
-
-    /* left side of project page */
-    .projectsPage__left {
-        width: auto;
-    }
-}
-
-@media only screen and (min-width: 1400px) {
-    /* put project image below buttons */
-    #projectsPage {
-        height: 915px;
-    }
+img {
+    width: 100%;
 }
