@@ -1,12 +1,16 @@
+/* Project container */
+#projectsPage {
+    text-align: center;
+}
+
+/* Project Header */
 h1 {
     color: white;
     font-size: 20px;
 }
 
+/* Project images */
 img {
-    width: 100%;
-}
-
-img:hover {
-    filter: brightness(110%);
+    width: 94%;
+    max-height: 500px;
 }

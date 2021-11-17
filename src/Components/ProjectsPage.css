@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 40px;
-    height: 970px;
+    margin: 60px 40px;
 }
 
 @media only screen and (max-width: 1030px) {
