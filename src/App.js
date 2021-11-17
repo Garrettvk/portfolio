@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Header from "./Components/Header";
 import ProjectsPage from "./Components/ProjectsPage";
+import About from "./Components/About"
 
 import "./App.css";
 
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <div className="App">
       <Header data={resumeData.main} />
+      <About />
       <ProjectsPage data={resumeData.main} />
     </div>
   );

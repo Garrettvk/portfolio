@@ -1,0 +1,11 @@
+#about > .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 243px;
+}
+
+/* Remove margin from everything in about page */
+#about * {
+    margin: 0 !important;
+}
