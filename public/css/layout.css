@@ -219,9 +219,11 @@ ul#nav li.current a {
 #about a:visited {
   color: #fff;
 }
+
+/* On hover color for download resume button */
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: hsl(199, 82%, 58%);
 }
 
 #about h2 {
