@@ -14,3 +14,10 @@ img {
     width: 94%;
     max-height: 500px;
 }
+
+/* Add more space to projects on small screens */
+@media only screen and (max-width: 1030px) {
+    #projectsPage {
+        margin-bottom: 50px;
+    }
+}
