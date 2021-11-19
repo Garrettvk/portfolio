@@ -17,6 +17,7 @@
 .about h2 {
     font: 22px/30px "opensans-bold", sans-serif;
     color: hsl(0, 0%, 100%);
+    height: auto;
 }
 
 /* container of download resume button */
@@ -53,8 +54,6 @@
     background: hsl(0, 0%, 17%);
     width: 50%;
     padding: 40px;
-    display: flex;
-    justify-content: center;
 }
 
 /* SVG icons container */
@@ -62,12 +61,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* SVG icons */
-.about__icons > svg {
-    width: 10%;
+.about__icons  svg {
+    width: 32%;
     fill: hsl(0, 0%, 37%);
+    filter: grayscale(1);
+}
+
+/* Rows for SVG icons */
+.about__iconsRowOne,
+.about__iconsRowTwo,
+.about__iconsRowThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 /* About section on small screens */
