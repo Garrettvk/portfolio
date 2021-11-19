@@ -1,21 +1,26 @@
-/* Container for about section */
+/* Container of about section */
 .about {
+    display: flex;
+}
+
+/* Container for left side of about */
+.about__left {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 520px;
     background: hsl(0, 0%, 17%);
     padding: 40px;
+    width: 50%;
 }
 
-/* "About Me" title */
-.about > h2 {
+/* Titles for about section */
+.about h2 {
     font: 22px/30px "opensans-bold", sans-serif;
     color: hsl(0, 0%, 100%);
 }
 
 /* container of download resume button */
-.about > a {
+.about__left > a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,8 +31,8 @@
 }
 
 /* On hover color for download resume button */
-.about > a:hover,
-.about > a:focus {
+.about__left > a:hover,
+.about__left > a:focus {
     color: hsl(199, 82%, 58%);
 }
 
@@ -35,4 +40,47 @@
 .fa-download {
     padding-right: 11px;
     font-size: 19px;
+}
+
+/* Add padding bottom to child elements in about section */
+.about h2,
+.about__left > p {
+    padding-bottom: 20px;
+}
+
+/* Right section of about page */
+.about__right {
+    background: hsl(0, 0%, 17%);
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* SVG icons container */
+.about__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SVG icons */
+.about__icons > svg {
+    width: 10%;
+    fill: hsl(0, 0%, 37%);
+}
+
+/* About section on small screens */
+@media only screen and (max-width: 940px) {
+    
+    /* Container of about section */
+    .about {
+        flex-direction: column;
+    }
+
+    /* Change right and left sections to full width of screen */
+    .about__left,
+    .about__right {
+        width: 100%;
+    }
 }
