@@ -1,25 +1,38 @@
-#about > .row {
+/* Container for about section */
+.about {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 243px;
+    height: 520px;
+    background: hsl(0, 0%, 17%);
+    padding: 40px;
 }
 
-/* Remove margin from everything in about page */
-#about * {
-    margin: 0 !important;
+/* "About Me" title */
+.about > h2 {
+    font: 22px/30px "opensans-bold", sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+/* container of download resume button */
+.about > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202px;
+    background-color: hsl(0, 0%, 37%);
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+/* On hover color for download resume button */
+.about > a:hover,
+.about > a:focus {
+    color: hsl(199, 82%, 58%);
 }
 
 /* download icon */
 .fa-download {
     padding-right: 11px;
     font-size: 19px;
-}
-
-/* container of download resume button */
-.row > a {
-    width: 202px;
-    background-color: hsl(0, 0%, 37%);
-    padding: 0 20px;
-    border-radius: 5px;
 }
