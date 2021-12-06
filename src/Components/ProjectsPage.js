@@ -5,7 +5,7 @@ import './ProjectsPage.css'
 // project photos
 import fmGallery from './../images/FM-Gallery.png'
 import lcfm from './../images/lcfm.png'
-import greaterWorks from './../images/greaterWorks.png'
+import fmTraining from './../images/fmTraining.png'
 
 const ProjectsPage = () => {
 
@@ -28,9 +28,9 @@ const ProjectsPage = () => {
 
       {/* Greater Works */}
       <Project
-        title='Greater Works Construction'
-        image={greaterWorks}
-        projectUrl='http://greaterworksconstruction.com/'
+        title='Certification Training'
+        image={fmTraining}
+        projectUrl='https://fmtraining.tv/certification-training.php'
       />
     </div>
   );

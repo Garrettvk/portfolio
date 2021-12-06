@@ -14,8 +14,7 @@ const About = () => {
 
                 <p>
                     My projects include websites that I have worked on for
-                    Richard Carlton Consulting as well as a website for a local
-                    construction company that was made with React. I am
+                    Richard Carlton Consulting. I am
                     currently looking for more opportunities in web development
                     and would love to hear from you.
                 </p>
