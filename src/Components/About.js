@@ -7,11 +7,9 @@ const About = () => {
             <div className="about__left">
                 <h2>About Me</h2>
                 <p>
-                    Hello, my name is Garrett van Kranenburg. I am a web
-                    developer from San Luis Obispo, California. I am currently
-                    working at Richard Carlton Consulting in Los Osos,
+                    Hello, my name is Garrett van Kranenburg. I am a developer from San Luis Obispo, California. I work at Richard Carlton Consulting in Los Osos,
                     California. Currently I am working on updating and creating
-                    new web pages for products and services.
+                    new web pages for products and services offered by Richard Carlton Consulting.
                 </p>
 
                 <p>
