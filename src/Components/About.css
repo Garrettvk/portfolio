@@ -90,6 +90,10 @@
     
 }
 
+.about__iconsSingleRow {
+    display: none;
+}
+
 /* About section on small screens */
 @media only screen and (max-width: 940px) {
     
@@ -102,5 +106,26 @@
     .about__left,
     .about__right {
         width: 100%;
+    }
+}
+
+/* change skill icons to 1 row on larger screen sizes */
+@media only screen and (min-width: 1418px) {
+    
+    /* Rows for SVG icons */
+    .about__iconsRowOne,
+    .about__iconsRowTwo,
+    .about__iconsRowThree {
+        display: none;
+        
+    }
+
+    .about__iconsSingleRow {
+        display: flex;
+        justify-content: space-between;
+    }    
+
+    .about__icons svg {
+        width: 66%;
     }
 }
