@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import resume from "../images/GVK Resume.pdf"
 
 const About = () => {
     return (
@@ -19,9 +20,9 @@ const About = () => {
                     and would love to hear from you.
                 </p>
 
-                <a href={"https://www.youtube.com/watch?v=5qap5aO4i9A"}>
-                    <i className="fa fa-download" />
-                    Download Resume
+                <a href={resume} target="_blank">
+                    <i className="fa fa-file-text-o" />
+                    View Resume
                 </a>
             </div>
 
