@@ -15,7 +15,7 @@ const About = () => {
                 <p>
                     My projects include websites that I have worked on for
                     Richard Carlton Consulting. I am
-                    currently looking for more opportunities in web development
+                    looking for more opportunities in web development
                     and would love to hear from you.
                 </p>
 
