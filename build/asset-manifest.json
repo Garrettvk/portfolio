@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3520c841.chunk.css",
+    "main.js": "/static/js/main.c7e77173.chunk.js",
+    "main.js.map": "/static/js/main.c7e77173.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b83279d6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b83279d6.js.map",
+    "static/js/2.f8d690c5.chunk.js": "/static/js/2.f8d690c5.chunk.js",
+    "static/js/2.f8d690c5.chunk.js.map": "/static/js/2.f8d690c5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3520c841.chunk.css.map": "/static/css/main.3520c841.chunk.css.map",
+    "static/js/2.f8d690c5.chunk.js.LICENSE.txt": "/static/js/2.f8d690c5.chunk.js.LICENSE.txt",
+    "static/media/FM-Gallery.613ee008.png": "/static/media/FM-Gallery.613ee008.png",
+    "static/media/GVK Resume.52def6d8.pdf": "/static/media/GVK Resume.52def6d8.pdf",
+    "static/media/fmTraining.fd5f08d8.png": "/static/media/fmTraining.fd5f08d8.png",
+    "static/media/lcfm.91edf806.png": "/static/media/lcfm.91edf806.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b83279d6.js",
+    "static/js/2.f8d690c5.chunk.js",
+    "static/css/main.3520c841.chunk.css",
+    "static/js/main.c7e77173.chunk.js"
+  ]
+}
