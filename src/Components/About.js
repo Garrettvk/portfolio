@@ -20,7 +20,7 @@ const About = () => {
                     and would love to hear from you.
                 </p>
 
-                <a href={resume} target="_blank">
+                <a href={resume} target="_blank" rel="noreferrer">
                     <i className="fa fa-file-text-o" />
                     View Resume
                 </a>

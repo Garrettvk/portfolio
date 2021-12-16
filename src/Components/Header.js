@@ -4,7 +4,6 @@ import Particles from "react-particles-js";
 
 const Header = ({ data }) => {
     if (data) {
-        var name = data.name;
         var occupation = data.occupation;
         var city = data.address.city;
     }
