@@ -68,7 +68,7 @@ Hello, my name is Garrett van Kranenburg. I am a developer from San Luis Obispo,
               data-aos-duration="1200"
               data-aos-delay="200"
             >
-              <a className="anchor seePortfolio" href="#about">
+              <a className="anchor seePortfolio" href="#portfolio">
                 <span className="wrapper">
                   <span className="first">See Portfolio</span>
                   <span className="second">See Portfolio</span>
