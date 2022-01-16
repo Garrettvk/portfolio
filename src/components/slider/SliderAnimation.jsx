@@ -42,7 +42,7 @@ const SliderAnimation = () => {
               <TextLoop>
                 <p className="loop-text lead"> Developer</p>
               </TextLoop>
-              <br /> <span>Based In America.</span>
+              <br /> <span>Based In San Luis Obisbo, CA.</span>
             </h1>
             <p
               className="text"
