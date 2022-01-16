@@ -2,6 +2,7 @@ import React from "react";
 import Social from "../Social";
 import SocialTwo from "../SocialTwo";
 import TextLoop from "react-text-loop";
+import "./SliderAnimation.css"
 
 const SliderAnimation = () => {
   return (
