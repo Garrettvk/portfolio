@@ -15,18 +15,7 @@ const HomeLightAnimation = () => {
   document.body.classList.add("light");
   return (
     <div className="home-light">
-      <div
-        className="demo-fixed-wrapper"
-        data-aos="fade-left"
-        data-aos-duration="1200"
-        data-aos-delay="50"
-      >
-        <button className="demo-button">
-          <Link to="/">
-            <span className="text">Demos</span>
-          </Link>
-        </button>
-      </div>
+
       {/* demo show wrapper  */}
 
       <Header />

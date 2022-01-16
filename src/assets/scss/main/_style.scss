@@ -3439,23 +3439,6 @@ body.intro .loader_line:after {
   z-index: 99;
   right: 0px;
   top: calc(50% - 55px);
-  .demo-button {
-    border-radius: 6px 0 0 6px;
-    background: #222;
-    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
-    transition: var(--transition);
-    position: relative;
-    z-index: 2;
-    font-size: 14px;
-    border: 0 none;
-    width: 100%;
-    min-width: 100%;
-    padding: 10px 0px 8px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
   .text {
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
