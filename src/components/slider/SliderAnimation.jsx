@@ -40,8 +40,6 @@ const SliderAnimation = () => {
               data-aos-delay="50"
             >
               <TextLoop>
-                <p className="loop-text lead">Visual Artist</p>
-                <p className="loop-text lead"> Designer</p>
                 <p className="loop-text lead"> Developer</p>
               </TextLoop>
               <br /> <span>Based In America.</span>
