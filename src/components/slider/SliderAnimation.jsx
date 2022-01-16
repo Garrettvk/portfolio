@@ -20,13 +20,6 @@ const SliderAnimation = () => {
       </div>
       {/* End bg */}
 
-      <div className="go-to go-to-next">
-        <a href="#about">
-          <span></span>
-        </a>
-      </div>
-      {/* End animated goto button */}
-
       <div className="container">
         <div className="content">
           <div className="content_inner">
