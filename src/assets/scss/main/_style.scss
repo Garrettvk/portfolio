@@ -407,9 +407,6 @@ body.dark .loader_line:after {
     margin: 0px 25px 0px 0px;
   }
 }
-.beny_tm_topbar ul li:last-child {
-  margin-right: 0px;
-}
 .beny_tm_topbar ul li a,
 .social ul li a {
   text-decoration: none;
@@ -471,14 +468,6 @@ body.dark .loader_line:after {
   }
 }
 
-.beny_tm_topbar ul li:last-child a {
-  border: 2px solid #6e6e6e;
-  padding: 5px 30px;
-  border-radius: 6px;
-  @media screen and (max-width: 991px) {
-    border-color: #e4e4e4;
-  }
-}
 .beny_tm_topbar ul li:last-child:hover a {
   border-color: #f52225;
 }

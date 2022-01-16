@@ -79,14 +79,6 @@ const Header = () => {
                     <span className="second">Contact</span>
                   </a>
                 </li>
-                <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
-                    <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
-                    </span>
-                  </a>
-                </li>
               </Scrollspy>
             </div>
           </div>
