@@ -31,7 +31,7 @@ const SliderAnimation = () => {
         <div className="content">
           <div className="content_inner">
             <h3 className="name" data-aos="fade-up" data-aos-duration="1200">
-              Hi! I'm Jara
+              Hi! I'm Garrett
             </h3>
             <h1
               className="job"
@@ -51,14 +51,6 @@ const SliderAnimation = () => {
               data-aos-delay="100"
             >
 Hello, my name is Garrett van Kranenburg. I am a developer from San Luis Obispo, California. I work at Richard Carlton Consulting in Los Osos, California. Currently I am working on updating and creating new web pages for products and services offered by Richard Carlton Consulting.
-            </p>
-            <p
-              className="text"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="100"
-            >
-My projects include websites that I have worked on for Richard Carlton Consulting. I am looking for more opportunities in web development and would love to hear from you.
             </p>
             <div
               className="mobile_social"
