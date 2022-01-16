@@ -12,7 +12,7 @@ const SliderAnimation = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/3.jpg"
+              "https://cutewallpaper.org/23/abstract-white-wallpaper-hd-for-android/714716208.jpg"
             })`,
           }}
         ></div>
