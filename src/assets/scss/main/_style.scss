@@ -744,10 +744,9 @@ body.dark .loader_line:after {
 }
 .beny_tm_hero .content {
   width: 100%;
-  max-width: 800px;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
+  display: grid;
+  place-items: center;
 }
 .beny_tm_hero .content .name {
   font-weight: 400;
@@ -2916,7 +2915,7 @@ body.intro .loader_line:after {
   }
 
   .beny_tm_hero .content .job {
-    font-size: 31px;
+    font-size: 30px;
   }
   .beny_tm_title_holder h2 {
     font-size: 30px;
