@@ -1,7 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import ReactTyped from "react-typed";
-import SocialTwo from "../SocialTwo";
 
 const image1 = "img/slider/10.jpg";
 
@@ -99,9 +98,6 @@ const SliderParallaxTyper = () => {
                 {/* End beny_tm_button */}
               </div>
             </div>
-          </div>
-          <div className="social">
-            <SocialTwo />
           </div>
         </div>
       </Parallax>

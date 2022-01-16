@@ -1,6 +1,5 @@
 import React from "react";
 import Social from "../Social";
-import SocialTwo from "../SocialTwo";
 import TextLoop from "react-text-loop";
 import "./SliderAnimation.css"
 
@@ -86,10 +85,6 @@ const SliderAnimation = () => {
       </div>
       {/* End .container */}
 
-      <div className="social" data-aos="fade-left" data-aos-duration="1200">
-        <SocialTwo />
-      </div>
-      {/* End .social */}
     </div>
     //HERO
   );

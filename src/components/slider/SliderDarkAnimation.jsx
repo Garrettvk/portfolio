@@ -1,6 +1,5 @@
 import React from "react";
 import Social from "../Social";
-import SocialTwo from "../SocialTwo";
 import ReactTyped from "react-typed";
 
 const SliderDarkAnimation = () => {
@@ -96,10 +95,6 @@ const SliderDarkAnimation = () => {
       </div>
       {/* End .container */}
 
-      <div className="social" data-aos="fade-left" data-aos-duration="1200">
-        <SocialTwo />
-      </div>
-      {/* End .social */}
     </div>
     //HERO
   );
