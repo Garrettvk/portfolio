@@ -25,66 +25,6 @@ const Header = () => {
 
   return (
     <>
-      {/* TOPBAR  */}
-      <div className={navbar ? "beny_tm_topbar animate" : "beny_tm_topbar"}>
-        <div className="in">
-          <div className="topbar_inner">
-            <div className="menu">
-              <Scrollspy
-                className="anchor_nav"
-                items={[
-                  "home",
-                  "about",
-                  "service",
-                  "portfolio",
-                  "news",
-                  "contact",
-                ]}
-                currentClassName="current"
-                offset={-88}
-              >
-                <li className="current">
-                  <a href="#home">
-                    <span className="first">Home</span>
-                    <span className="second">Home</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#about">
-                    <span className="first">About</span>
-                    <span className="second">About</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#service">
-                    <span className="first">Service</span>
-                    <span className="second">Service</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#portfolio">
-                    <span className="first">Portfolio</span>
-                    <span className="second">Portfolio</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#news">
-                    <span className="first">News</span>
-                    <span className="second">News</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#contact">
-                    <span className="first">Contact</span>
-                    <span className="second">Contact</span>
-                  </a>
-                </li>
-              </Scrollspy>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* /TOPBAR */}
 
       <div className="mobile-menu-wrapper">
         <Scrollspy
