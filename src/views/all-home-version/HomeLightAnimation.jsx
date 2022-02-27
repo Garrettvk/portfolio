@@ -1,25 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderAnimation";
-import About from "../../components/about/AboutAnimation";
-import Service from "../../components/service/ServiceAnimation";
 import Portfolio from "../../components/portfolio/PortfolioAnimation";
-import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/BlogAnimation";
-import Contact from "../../components/Contact";
-import Footer from "../../components/footer/Footer";
-import Address from "../../components/Address";
 
 const HomeLightAnimation = () => {
   document.body.classList.add("light");
   return (
     <div className="home-light">
-
       {/* demo show wrapper  */}
-
-      <Header />
-      {/* End Header */}
 
       <Slider />
       {/* End Slider */}
@@ -40,7 +27,6 @@ const HomeLightAnimation = () => {
         </div>
       </div>
       {/* /PORTFOLIO */}
-
     </div>
   );
 };
