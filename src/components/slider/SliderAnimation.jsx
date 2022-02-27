@@ -1,7 +1,7 @@
 import React from "react";
 import Social from "../Social";
 import TextLoop from "react-text-loop";
-import "./SliderAnimation.css"
+import "./SliderAnimation.css";
 
 const SliderAnimation = () => {
   return (
@@ -11,9 +11,7 @@ const SliderAnimation = () => {
         <div
           className="image"
           style={{
-            backgroundImage: `url(${
-              "https://cutewallpaper.org/23/abstract-white-wallpaper-hd-for-android/714716208.jpg"
-            })`,
+            backgroundImage: `url(${"https://cutewallpaper.org/23/abstract-white-wallpaper-hd-for-android/714716208.jpg"})`,
           }}
         ></div>
         <div className="overlay"></div>
@@ -43,7 +41,11 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-Hello, my name is Garrett van Kranenburg. I am a developer from San Luis Obispo, California. I work at Richard Carlton Consulting in Los Osos, California. Currently I am working on updating and creating new web pages for products and services offered by Richard Carlton Consulting.
+              Hello, my name is Garrett van Kranenburg. I am a developer from
+              San Luis Obispo, California. I work at Richard Carlton Consulting
+              in Los Osos, California. Currently I am working on updating and
+              creating new web pages for products and services offered by
+              Richard Carlton Consulting.
             </p>
             <div
               className="mobile_social"
@@ -67,7 +69,11 @@ Hello, my name is Garrett van Kranenburg. I am a developer from San Luis Obispo,
                   <span className="second">See Portfolio</span>
                 </span>
               </a>
-              <a className="anchor" href="#about">
+              <a
+                className="anchor"
+                href="https://my.visualcv.com/garrett-van-kranenburg/"
+                target="_blank"
+              >
                 <span className="wrapper">
                   <span className="first">View CV</span>
                   <span className="second">View CV</span>
@@ -79,7 +85,6 @@ Hello, my name is Garrett van Kranenburg. I am a developer from San Luis Obispo,
         </div>
       </div>
       {/* End .container */}
-
     </div>
     //HERO
   );
