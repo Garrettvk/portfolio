@@ -18,8 +18,8 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 className="title"
               >
-                <h3>Aura Dione </h3>
-                <span>Youtube Shoot</span>
+                <h3>Drop</h3>
+                <span>Promotional email for drop.com</span>
               </a>
               <img
                 src="img/portfolio/html-email-project-1.jpg"
@@ -41,8 +41,8 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 className="title"
               >
-                <h3>Jupita Rine </h3>
-                <span>Vimeo Shoot</span>
+                <h3>Trello</h3>
+                <span>Newsletter for trello.com</span>
               </a>
               <img
                 src="img/portfolio/html-email-project-2.jpg"
@@ -66,8 +66,8 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   href="https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template"
                 >
-                  <h3>Ave Simone</h3>
-                  <span>Dribbble Shoot</span>
+                  <h3>Google Play</h3>
+                  <span>Transactional email for Google Play</span>
                 </a>
 
                 <a href="img/portfolio/1.jpg">
