@@ -1595,11 +1595,6 @@ body.dark .loader_line:after {
   }
 
   &:hover {
-    a {
-      img {
-        transform: scale(1.2);
-      }
-    }
     &:after {
       opacity: 1;
       visibility: visible;
