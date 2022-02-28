@@ -10,8 +10,6 @@ const Portfolio = () => {
     <SimpleReactLightbox>
       <div className="portfolio_list">
         <ul className="gallery_zoom">
-
-
           <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner video">
               <a
@@ -24,7 +22,7 @@ const Portfolio = () => {
                 <span>Youtube Shoot</span>
               </a>
               <img
-                src="img/portfolio/3.jpg"
+                src="img/portfolio/html-email-project-1.jpg"
                 alt="Youtube Shoot"
                 onClick={() => setOpen(true)}
               />
@@ -47,7 +45,7 @@ const Portfolio = () => {
                 <span>Vimeo Shoot</span>
               </a>
               <img
-                src="img/portfolio/2.jpg"
+                src="img/portfolio/html-email-project-2.jpg"
                 alt="Vimeo Shoot"
                 onClick={() => setOpen2(true)}
               />
@@ -73,7 +71,10 @@ const Portfolio = () => {
                 </a>
 
                 <a href="img/portfolio/1.jpg">
-                  <img src="img/portfolio/1.jpg" alt="Dribbble Shoot" />
+                  <img
+                    src="img/portfolio/html-email-project-3.jpg"
+                    alt="Dribbble Shoot"
+                  />
                 </a>
               </div>
             </li>

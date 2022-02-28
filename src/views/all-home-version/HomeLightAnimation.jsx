@@ -16,10 +16,10 @@ const HomeLightAnimation = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Portfolio</span>
-            <h2>My Portfolio</h2>
+            <h2>HTML Emails</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+              Here are 3 projects showcasing my skills as an HTML Email
+              Developer.
             </p>
           </div>
           {/* End beny_tm_title */}
