@@ -73,6 +73,7 @@ const SliderAnimation = () => {
                 className="anchor"
                 href="https://my.visualcv.com/garrett-van-kranenburg/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <span className="wrapper">
                   <span className="first">View CV</span>

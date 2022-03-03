@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const Portfolio = () => {
-  const [isOpen, setOpen] = useState(false);
-  const [isOpen2, setOpen2] = useState(false);
+  const [setOpen] = useState(false);
+  const [setOpen2] = useState(false);
   return (
     <SimpleReactLightbox>
       <div className="portfolio_list">
