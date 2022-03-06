@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
 
 const Portfolio = () => {
   const [setOpen] = useState(false);
