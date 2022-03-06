@@ -20,7 +20,7 @@ const Portfolio = () => {
               </a>
               <img
                 src="img/portfolio/html-email-project-1.webp"
-                alt="Youtube Shoot"
+                alt="promotional email"
                 onClick={() => setOpen(true)}
               />
             </div>
@@ -43,7 +43,7 @@ const Portfolio = () => {
               </a>
               <img
                 src="img/portfolio/html-email-project-2.webp"
-                alt="Vimeo Shoot"
+                alt="Newsletter email"
                 onClick={() => setOpen2(true)}
               />
             </div>
@@ -66,10 +66,14 @@ const Portfolio = () => {
                 <span>Transactional email for Google Play</span>
               </a>
 
-              <a href="html_emails/google_play.html">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="html_emails/google_play.html"
+              >
                 <img
                   src="img/portfolio/html-email-project-3.webp"
-                  alt="Dribbble Shoot"
+                  alt="Transactional email"
                 />
               </a>
             </div>

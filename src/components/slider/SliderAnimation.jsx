@@ -1,5 +1,4 @@
 import React from "react";
-import Social from "../Social";
 import TextLoop from "react-text-loop";
 import "./SliderAnimation.css";
 
@@ -47,15 +46,6 @@ const SliderAnimation = () => {
               creating new web pages for products and services offered by
               Richard Carlton Consulting.
             </p>
-            <div
-              className="mobile_social"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-              data-aos-delay="150"
-            >
-              <Social />
-            </div>
-            {/* End .social */}
 
             <div
               className="beny_tm_button"
