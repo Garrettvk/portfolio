@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import SimpleReactLightbox from "simple-react-lightbox";
 
 const Portfolio = () => {
   const [setOpen] = useState(false);
   const [setOpen2] = useState(false);
   return (
-    <SimpleReactLightbox>
+    <>
       <div className="portfolio_list">
         <ul className="gallery_zoom">
           <li data-aos="fade-right" data-aos-duration="1200">
@@ -78,7 +77,7 @@ const Portfolio = () => {
           {/* End image popup */}
         </ul>
       </div>
-    </SimpleReactLightbox>
+    </>
   );
 };
 
