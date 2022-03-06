@@ -52,33 +52,31 @@ const Portfolio = () => {
           </li>
           {/* End vimeo */}
 
-          <SRLWrapper>
-            <li
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="200"
-            >
-              <div className="list_inner">
-                <a
-                  className="title"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://dribbble.com/shots/16529339-Beny-Personal-Portfolio-React-Template"
-                >
-                  <h3>Google Play</h3>
-                  <span>Transactional email for Google Play</span>
-                </a>
+          <li
+            data-aos="fade-right"
+            data-aos-duration="1200"
+            data-aos-delay="200"
+          >
+            <div className="list_inner">
+              <a
+                className="title"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="html_emails/google_play.html"
+              >
+                <h3>Google Play</h3>
+                <span>Transactional email for Google Play</span>
+              </a>
 
-                <a href="img/portfolio/1.jpg">
-                  <img
-                    src="img/portfolio/html-email-project-3.jpg"
-                    alt="Dribbble Shoot"
-                  />
-                </a>
-              </div>
-            </li>
-            {/* End image popup */}
-          </SRLWrapper>
+              <a href="html_emails/google_play.html">
+                <img
+                  src="img/portfolio/html-email-project-3.jpg"
+                  alt="Dribbble Shoot"
+                />
+              </a>
+            </div>
+          </li>
+          {/* End image popup */}
         </ul>
       </div>
     </SimpleReactLightbox>
