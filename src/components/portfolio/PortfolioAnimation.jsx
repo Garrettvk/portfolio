@@ -20,7 +20,7 @@ const Portfolio = () => {
                 <span>Promotional email for drop.com</span>
               </a>
               <img
-                src="img/portfolio/html-email-project-1.jpg"
+                src="img/portfolio/html-email-project-1.webp"
                 alt="Youtube Shoot"
                 onClick={() => setOpen(true)}
               />
