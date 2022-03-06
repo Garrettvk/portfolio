@@ -43,7 +43,7 @@ const Portfolio = () => {
                 <span>Newsletter for trello.com</span>
               </a>
               <img
-                src="img/portfolio/html-email-project-2.jpg"
+                src="img/portfolio/html-email-project-2.webp"
                 alt="Vimeo Shoot"
                 onClick={() => setOpen2(true)}
               />
@@ -69,7 +69,7 @@ const Portfolio = () => {
 
               <a href="html_emails/google_play.html">
                 <img
-                  src="img/portfolio/html-email-project-3.jpg"
+                  src="img/portfolio/html-email-project-3.webp"
                   alt="Dribbble Shoot"
                 />
               </a>

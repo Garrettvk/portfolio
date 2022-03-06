@@ -11,7 +11,7 @@ const SliderAnimation = () => {
         <div
           className="image"
           style={{
-            backgroundImage: `url(${"https://cutewallpaper.org/23/abstract-white-wallpaper-hd-for-android/714716208.jpg"})`,
+            backgroundImage: `url(${"/img/portfolio/background.webp"})`,
           }}
         ></div>
         <div className="overlay"></div>
