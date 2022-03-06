@@ -30,7 +30,7 @@
   },
   "scripts": {
     "start": "source ~/.nvm/nvm.sh && nvm install 16.14.0 && react-scripts start",
-    "build": "react-scripts build",
+    "build": "source ~/.nvm/nvm.sh && nvm install 16.14.0 && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
