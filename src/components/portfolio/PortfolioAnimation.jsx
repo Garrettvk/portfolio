@@ -33,7 +33,7 @@ const Portfolio = () => {
           >
             <div className="list_inner video">
               <a
-                href="html_emails/google_play.html"
+                href="html_emails/trello.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="title"
@@ -41,11 +41,17 @@ const Portfolio = () => {
                 <h3>Trello</h3>
                 <span>Newsletter for trello.com</span>
               </a>
-              <img
-                src="img/portfolio/html-email-project-2.webp"
-                alt="Newsletter email"
-                onClick={() => setOpen2(true)}
-              />
+              <a
+                href="html_emails/trello.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="img/portfolio/html-email-project-2.webp"
+                  alt="Newsletter email"
+                  onClick={() => setOpen2(true)}
+                />
+              </a>
             </div>
           </li>
           {/* End vimeo */}
