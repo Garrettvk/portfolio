@@ -33,7 +33,7 @@ const Portfolio = () => {
           >
             <div className="list_inner video">
               <a
-                href="https://player.vimeo.com/video/100171151?h=92d8f1bd0a"
+                href="html_emails/google_play.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="title"
