@@ -10,19 +10,25 @@ const Portfolio = () => {
           <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner video">
               <a
-                href="https://www.youtube.com/watch?v=1gyTUHP6ne8"
+                href="html_emails/zoom.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="title"
               >
-                <h3>Drop</h3>
-                <span>Promotional email for drop.com</span>
+                <h3>Zoom</h3>
+                <span>Newsletter for Zoom</span>
               </a>
+              <a
+                href="html_emails/zoom.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
               <img
                 src="img/portfolio/html-email-project-1.webp"
                 alt="promotional email"
                 onClick={() => setOpen(true)}
               />
+              </a>
             </div>
           </li>
           {/* End youtube */}
@@ -39,7 +45,7 @@ const Portfolio = () => {
                 className="title"
               >
                 <h3>Trello</h3>
-                <span>Newsletter for trello.com</span>
+                <span>Promotional email for Trello</span>
               </a>
               <a
                 href="html_emails/trello.html"
