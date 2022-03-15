@@ -7,7 +7,7 @@ const SliderAnimation = () => {
     //    HERO
     <div className="beny_tm_hero" id="home">
       <div className="background">
-        <video id="background-video" autoPlay loop muted poster="/images/background-video-poster.png">
+        <video id="background-video" autoPlay loop muted poster="/img/background-video-poster.webp">
           <source src="/video/background-video.mp4" type="video/mp4" />
         </video>
         <div className="overlay"></div>
