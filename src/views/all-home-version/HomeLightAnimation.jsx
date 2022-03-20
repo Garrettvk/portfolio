@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "../../components/slider/SliderAnimation";
-import Portfolio from "../../components/portfolio/PortfolioAnimation";
+import HTMLEmails from "../../components/portfolio/HTMLEmails";
+import LandingPages from "../../components/portfolio/LandingPages";
 
 const HomeLightAnimation = () => {
   document.body.classList.add("light");
@@ -23,7 +24,14 @@ const HomeLightAnimation = () => {
             </p>
           </div>
           {/* End beny_tm_title */}
-          <Portfolio />
+          <HTMLEmails />
+          <div className="beny_tm_title_holder">
+            <h2>Landing Pages</h2>
+            <p>
+              A landing page for an eCommerce store.
+            </p>
+          </div>
+          <LandingPages />
         </div>
       </div>
       {/* /PORTFOLIO */}
