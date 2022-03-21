@@ -1,5 +1,5 @@
 import React from "react";
-export function HTML({}) {
+export function HTML() {
   return <svg xmlns="http://www.w3.org/2000/svg" aria-label="HTML5" viewBox="0 0 512 512">
           <path fill="#e34f26" d="M71 460L30 0h451l-41 460-185 52" />
           <path fill="#ef652a" d="M256 472l149-41 35-394H256" />

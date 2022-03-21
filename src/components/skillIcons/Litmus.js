@@ -1,5 +1,5 @@
 import React from "react";
-export function Litmus({}) {
+export function Litmus() {
   return <svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256">
           <path fill="#6A7A55" d="M0 127.94c0 12.487 1.799 24.552 5.133 35.961l70.62-23.131a53.012 53.012 0 0 1 .465-25.778L5.095 92.109A127.964 127.964 0 0 0 0 127.94" />
           <path fill="#A09440" d="M93.597 87.948L48.946 27.277C30.192 42.024 15.664 61.898 7.466 84.785l71.289 22.937a53.225 53.225 0 0 1 14.842-19.774" />

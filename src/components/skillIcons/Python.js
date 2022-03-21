@@ -1,5 +1,5 @@
 import React from "react";
-export function Python({}) {
+export function Python() {
   return <svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2490" viewBox="0 0 256 255">
           <defs>
             <linearGradient id="a" x1="12.959%" x2="79.639%" y1="12.039%" y2="78.201%">

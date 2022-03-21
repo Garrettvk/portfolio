@@ -1,5 +1,5 @@
 import React from "react";
-export function VsCode({}) {
+export function VsCode() {
   return <svg viewBox="0 0 128 128">
           <path d="M3.656 45.043s-3.027-2.191.61-5.113l8.468-7.594s2.426-2.559 4.989-.328l78.175 59.328v28.45s-.039 4.468-5.757 3.976zm0 0" fill="#2489ca" />
           <path d="M23.809 63.379L3.656 81.742s-2.07 1.543 0 4.305l9.356 8.527s2.222 2.395 5.508-.328l21.359-16.238zm0 0" fill="#1070b3" />
