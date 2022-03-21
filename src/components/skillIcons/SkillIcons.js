@@ -17,9 +17,9 @@ import { HTML } from "./HTML.js";
 
 export function SkillIcons() {
   return (
-    <>
+    <div className="skillIcons">
       {/* first row */}
-      <div className="skillIcons">
+      <div className="skillIcons__row">
         <HTML />
         <CSS />
         <JavaScript />
@@ -28,7 +28,7 @@ export function SkillIcons() {
         <Git />
       </div>
       {/* second row */}
-      <div className="skillIcons">
+      <div className="skillIcons__row">
         <Python />
         <VsCode />
         <PhotoShop />
@@ -36,6 +36,6 @@ export function SkillIcons() {
         <Litmus />
         <Inky />
       </div>
-    </>
+    </div>
   );
 }

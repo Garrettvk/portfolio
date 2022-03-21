@@ -1,26 +1,53 @@
 .skillIcons {
-  background-color: white;
-  height: 100px;
-  margin: 0 40px;
+  background-color: #f9f9fc;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 21px;
+  padding-top: 120px;
 }
 
-.skillIcons > svg,
-.skillIcons > img {
+.skillIcons__row {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  width: 1331px;
+  max-width: 1331px;
+  width: 100%;
+}
+
+.skillIcons__row > svg,
+.skillIcons__row > img {
   width: 100%;
   height: 100%;
-  margin: 0 20px;
   filter: saturate(0);
   transition: .5s;
 }
 
-.skillIcons > svg:hover,
-.skillIcons > img:hover {
+.skillIcons__row > svg:hover,
+.skillIcons__row > img:hover {
   filter: saturate(100%);
   transition: .25s;
 }
 
-.skillIcons > img {
+.skillIcons__row > img {
   align-self: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .skillIcons__row > svg, .skillIcons__row > img {
+    width: 0;
+    height: 100px;
+    flex-basis: 33.33%;
+    padding-bottom: 10px;
+  }
+  
+  .skillIcons__row {
+    height: 100%;
+    margin: 0;
+    flex-wrap: wrap;
+  }
 }

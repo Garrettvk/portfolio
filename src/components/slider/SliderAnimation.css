@@ -14,6 +14,11 @@
   z-index: -1;
 }
 
+.home-light {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 992px) {
   .content_inner {
     background: rgba(255, 255, 255, 0.15);
