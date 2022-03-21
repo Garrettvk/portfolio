@@ -37,11 +37,12 @@ const SliderAnimation = () => {
               data-aos-duration="1200"
               data-aos-delay="100"
             >
-              Hello, my name is Garrett van Kranenburg. I am a developer from
-              San Luis Obispo, California. I work at Richard Carlton Consulting
-              in Los Osos, California. Currently I am working on updating and
-              creating new web pages for products and services offered by
-              Richard Carlton Consulting.
+              Hello, my name is Garrett van Kranenburg and I make computers do
+              amazing things. My entire life I have been passionate about art.
+              Like many people in our community I am a musician turned web
+              developer. If you are searching for someone who is hard working,
+              easy to get along with and constantly improving, look no
+              further.
             </p>
 
             <div
