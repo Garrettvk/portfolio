@@ -18,30 +18,37 @@
   width: 100%;
 }
 
-.skillIcons__row > svg,
-.skillIcons__row > img {
+.skillIcons__row svg,
+.skillIcons__row img {
   width: 100%;
   height: 100%;
   filter: saturate(0);
   transition: .5s;
 }
 
-.skillIcons__row > svg:hover,
-.skillIcons__row > img:hover {
+.skillIcons__row svg:hover,
+.skillIcons__row img:hover {
   filter: saturate(100%);
   transition: .25s;
 }
 
-.skillIcons__row > img {
+.skillIcons__row img {
   align-self: center;
+}
+
+.SkillIcon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 
 @media only screen and (max-width: 768px) {
-  .skillIcons__row > svg, .skillIcons__row > img {
+  .skillIcons__row svg, .skillIcons__row img {
     width: 0;
     height: 100px;
-    flex-basis: 33.33%;
     padding-bottom: 10px;
   }
   
@@ -49,5 +56,31 @@
     height: 100%;
     margin: 0;
     flex-wrap: wrap;
+  }
+}
+
+/* make skill icons responsive for mobile */
+@media only screen and (max-width: 768px) {
+  .skillIcons__row svg, .skillIcons__row img {
+    height: 100px;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  .skillIcons__row {
+    height: 100%;
+    width: 91%;
+  }
+
+  .SkillIcon {
+    text-align: center;
+    width: 19%;
+    margin: 0px 20px;
+  }
+}
+
+/* change font size for mobile */
+@media only screen and (max-width: 577px) {
+  .SkillIcon {
+    font-size: 11.9px;
   }
 }

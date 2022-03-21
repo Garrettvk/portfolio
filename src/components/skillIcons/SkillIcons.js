@@ -14,27 +14,28 @@ import { ReactSVG } from "./ReactSVG";
 import { JavaScript } from "./JavaScript";
 import { CSS } from "./CSS";
 import { HTML } from "./HTML.js";
+import { SkillIcon } from "./SkillIcon";
 
 export function SkillIcons() {
   return (
     <div className="skillIcons">
       {/* first row */}
       <div className="skillIcons__row">
-        <HTML />
-        <CSS />
-        <JavaScript />
-        <ReactSVG />
-        <NodeJs />
-        <Git />
+        <SkillIcon Icon={<HTML />} Text={'HTML'} />
+        <SkillIcon Icon={<CSS />} Text={'CSS'} />
+        <SkillIcon Icon={<JavaScript />} Text={'JavaScript'} />
+        <SkillIcon Icon={<ReactSVG />} Text={'React'} />
+        <SkillIcon Icon={<NodeJs />} Text={'Node.js'} />
+        <SkillIcon Icon={<Git />} Text={'Git'} />
       </div>
       {/* second row */}
       <div className="skillIcons__row">
-        <Python />
-        <VsCode />
-        <PhotoShop />
-        <Github />
-        <Litmus />
-        <Inky />
+        <SkillIcon Icon={<Python />} Text={'Python'} />
+        <SkillIcon Icon={<VsCode />} Text={'VS Code'} />
+        <SkillIcon Icon={<PhotoShop />} Text={'Photoshop'} />
+        <SkillIcon Icon={<Github />} Text={'GitHub'} />
+        <SkillIcon Icon={<Litmus />} Text={'Litmus'} />
+        <SkillIcon Icon={<Inky />} Text={'Foundation'} />
       </div>
     </div>
   );
