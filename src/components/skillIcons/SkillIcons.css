@@ -4,7 +4,6 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 0 21px;
   padding-top: 120px;
 }
 
@@ -44,6 +43,12 @@
   text-align: center;
 }
 
+
+/* Element | http://localhost:3000/ */
+
+.skillIcons .beny_tm_portfolio {
+  padding: 0;
+}
 
 @media only screen and (max-width: 768px) {
   .skillIcons__row svg, .skillIcons__row img {

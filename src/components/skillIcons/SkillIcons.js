@@ -19,23 +19,30 @@ import { SkillIcon } from "./SkillIcon";
 export function SkillIcons() {
   return (
     <div className="skillIcons">
+      <div className="beny_tm_portfolio" id="portfolio">
+        <div className="container">
+          <div className="beny_tm_title_holder">
+            <span>Skills</span>
+          </div>
+        </div>
+      </div>
       {/* first row */}
       <div className="skillIcons__row">
-        <SkillIcon Icon={<HTML />} Text={'HTML'} />
-        <SkillIcon Icon={<CSS />} Text={'CSS'} />
-        <SkillIcon Icon={<JavaScript />} Text={'JavaScript'} />
-        <SkillIcon Icon={<ReactSVG />} Text={'React'} />
-        <SkillIcon Icon={<NodeJs />} Text={'Node.js'} />
-        <SkillIcon Icon={<Git />} Text={'Git'} />
+        <SkillIcon Icon={<HTML />} Text={"HTML"} />
+        <SkillIcon Icon={<CSS />} Text={"CSS"} />
+        <SkillIcon Icon={<JavaScript />} Text={"JavaScript"} />
+        <SkillIcon Icon={<ReactSVG />} Text={"React"} />
+        <SkillIcon Icon={<NodeJs />} Text={"Node.js"} />
+        <SkillIcon Icon={<Git />} Text={"Git"} />
       </div>
       {/* second row */}
       <div className="skillIcons__row">
-        <SkillIcon Icon={<Litmus />} Text={'Litmus'} />
-        <SkillIcon Icon={<Inky />} Text={'Foundation'} />
-        <SkillIcon Icon={<Python />} Text={'Python'} />
-        <SkillIcon Icon={<VsCode />} Text={'VS Code'} />
-        <SkillIcon Icon={<PhotoShop />} Text={'Photoshop'} />
-        <SkillIcon Icon={<Github />} Text={'GitHub'} />
+        <SkillIcon Icon={<Litmus />} Text={"Litmus"} />
+        <SkillIcon Icon={<Inky />} Text={"Foundation"} />
+        <SkillIcon Icon={<Python />} Text={"Python"} />
+        <SkillIcon Icon={<VsCode />} Text={"VS Code"} />
+        <SkillIcon Icon={<PhotoShop />} Text={"Photoshop"} />
+        <SkillIcon Icon={<Github />} Text={"GitHub"} />
       </div>
     </div>
   );
