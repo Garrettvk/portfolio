@@ -30,12 +30,12 @@ export function SkillIcons() {
       </div>
       {/* second row */}
       <div className="skillIcons__row">
+        <SkillIcon Icon={<Litmus />} Text={'Litmus'} />
+        <SkillIcon Icon={<Inky />} Text={'Foundation'} />
         <SkillIcon Icon={<Python />} Text={'Python'} />
         <SkillIcon Icon={<VsCode />} Text={'VS Code'} />
         <SkillIcon Icon={<PhotoShop />} Text={'Photoshop'} />
         <SkillIcon Icon={<Github />} Text={'GitHub'} />
-        <SkillIcon Icon={<Litmus />} Text={'Litmus'} />
-        <SkillIcon Icon={<Inky />} Text={'Foundation'} />
       </div>
     </div>
   );
