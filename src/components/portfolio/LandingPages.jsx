@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Portfolio = () => {
   const [setOpen] = useState(false);
-  const [setOpen2] = useState(false);
+  // const [setOpen2] = useState(false);
   return (
     <>
       <div className="portfolio_list">
