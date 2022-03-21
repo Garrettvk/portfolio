@@ -10,7 +10,7 @@ const Portfolio = () => {
           <li data-aos="fade-right" data-aos-duration="1200">
             <div className="list_inner video">
               <a
-                href="html_emails/zoom.html"
+                href="http://bigdataspecialties.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="title"
@@ -19,7 +19,7 @@ const Portfolio = () => {
                 <span>Fashion E-comm Landing Page</span>
               </a>
               <a
-                href="html_emails/zoom.html"
+                href="http://bigdataspecialties.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
