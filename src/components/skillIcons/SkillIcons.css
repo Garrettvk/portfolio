@@ -1,0 +1,20 @@
+.skillIcons {
+  background-color: white;
+  height: 100px;
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.skillIcons > svg {
+  width: auto;
+  height: 100%;
+  margin: 0 20px;
+  filter: saturate(0);
+  transition: .5s;
+}
+
+.skillIcons > svg:hover {
+  filter: saturate(100%);
+  transition: .25s;
+}
