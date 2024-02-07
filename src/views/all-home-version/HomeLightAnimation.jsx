@@ -2,7 +2,7 @@ import { SkillIcons } from "../../components/skillIcons/SkillIcons";
 import React from "react";
 import Slider from "../../components/slider/SliderAnimation";
 import HTMLEmails from "../../components/portfolio/HTMLEmails";
-import LandingPages from "../../components/portfolio/LandingPages";
+// import LandingPages from "../../components/portfolio/LandingPages";
 
 const HomeLightAnimation = () => {
   document.body.classList.add("light");
@@ -29,11 +29,11 @@ const HomeLightAnimation = () => {
           </div>
           {/* End beny_tm_title */}
           <HTMLEmails />
-          <div className="beny_tm_title_holder">
+          {/* <div className="beny_tm_title_holder">
             <h2>Landing Pages</h2>
             <p>A landing page for an eCommerce store.</p>
           </div>
-          <LandingPages />
+          <LandingPages /> */}
         </div>
       </div>
       {/* /PORTFOLIO */}
