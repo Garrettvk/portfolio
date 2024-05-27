@@ -10,6 +10,7 @@ import Blog from "../../components/blog/BlogAnimation";
 import Contact from "../../components/Contact";
 import Footer from "../../components/footer/Footer";
 import Address from "../../components/Address";
+import { SkillIcons } from "../../components/skillIcons/SkillIcons";
 
 const HomeLightAnimation = () => {
   document.body.classList.add("light");
@@ -34,6 +35,10 @@ const HomeLightAnimation = () => {
 
       <Slider />
       {/* End Slider */}
+
+      <div className="beny_tm_skills" id="skills">
+      <SkillIcons />
+      </div>
 
       <div className="beny_tm_about" id="about">
         <div className="container">
