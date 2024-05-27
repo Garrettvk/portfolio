@@ -8,15 +8,9 @@ const SliderAnimation = () => {
     //    HERO
     <div className="beny_tm_hero" id="home">
       <div className="background">
-        <div
-          className="image"
-          style={{
-            // background image for home page
-            backgroundImage: `url(${
-              process.env.PUBLIC_URL + "https://c.wallhere.com/photos/d6/ae/1920x950_px_anime_Anime_Girls_Hoshi_Ori_Yume_Mirai_kimono_Narusawa_Rikka_Traditional_Clothing_umbrella-1515277.jpg!d"
-            })`,
-          }}
-        ></div>
+        <video id="background-video" autoPlay loop muted poster="/img/background-video-poster.webp">
+          <source src="/video/background-video.mp4" type="video/mp4" />
+        </video>
         <div className="overlay"></div>
       </div>
       {/* End bg */}
