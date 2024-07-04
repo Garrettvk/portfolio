@@ -95,7 +95,7 @@ const AboutAnimation = () => {
           </div>
         </div>
       </div>
-      <Skills />
+      
     </>
   );
 };
