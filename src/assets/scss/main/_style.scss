@@ -964,7 +964,7 @@ body.dark .loader_line:after {
   clear: both;
   float: left;
   background-color: #f9f9fc;
-  padding: 120px 0px;
+  padding: 120px 0 0 0px;
 }
 
 .beny_tm_skills {
@@ -1588,6 +1588,7 @@ body.dark .loader_line:after {
   float: left;
   background-color: #f9f9fc;
   padding: 120px 0px 90px;
+  padding-top: 0;
 }
 .beny_tm_portfolio .portfolio_list {
   width: 100%;
