@@ -75,7 +75,6 @@ const HomeLightAnimation = () => {
         </div>
       </div>
       {/* /PORTFOLIO */}
-
     </div>
   );
 };
